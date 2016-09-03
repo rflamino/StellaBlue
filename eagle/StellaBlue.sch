@@ -18345,7 +18345,7 @@ DIN A3, landscape with location and doc. field</description>
 </class>
 </classes>
 <parts>
-<part name="JP1" library="atari2600 card edge" deviceset="ATARI2600_SLOT" device="" value="CARTRIDGE"/>
+<part name="JP1" library="atari2600 card edge" deviceset="ATARI2600_SLOT" device="" value="CARTRIDGE SOCKET"/>
 <part name="JP2" library="pinhead" deviceset="PINHD-2X14" device=""/>
 <part name="JP4" library="pinhead" deviceset="PINHD-2X14" device=""/>
 <part name="JP5" library="pinhead" deviceset="PINHD-2X14" device=""/>
