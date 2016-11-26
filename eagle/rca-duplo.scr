@@ -1,0 +1,28 @@
+#
+#script to generate the footprint for the RCA dual connector
+#
+# Stella Blue Project, Danjovic / Flamino - 2016
+
+Grid mm 1 off;
+Set Wire_Bend 0;
+
+#draw outline
+Layer tPlace;
+Wire 0.127  (9 7) (-11.5 7) (-11.5 -1.5) (-8.3 -1.5) (-8.3 -5.5) (8.3 -5.5) (8.3 4) (9 4) (9 7);
+
+#draw rca connector
+wire (-4.2 7) (-4.2 15) (4.2 15) (4.2 7);
+
+#draw pads
+set diameter 1.9304;
+set drill 1.1;
+pad (0 -0.5);
+pad (4 -4.5);
+pad (-4 -3.5);
+
+#draw mounting holes
+hole 2.8 (7.5 -1.4);
+hole 2.8 (-7.5 -1.4);
+
+Grid Last;
+#Window Fit;
