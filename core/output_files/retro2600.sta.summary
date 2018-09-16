@@ -1,0 +1,133 @@
+------------------------------------------------------------
+TimeQuest Timing Analyzer Summary
+------------------------------------------------------------
+
+Type  : Slow Model Setup 'A2601Master:inst|A2601:ms_A2601|TIA:tia_inst|phi0'
+Slack : -16.531
+TNS   : -1598.685
+
+Type  : Slow Model Setup 'inst4|altpll_component|pll|clk[0]'
+Slack : -12.370
+TNS   : -313.003
+
+Type  : Slow Model Setup 'A2601Master:inst|A2601:ms_A2601|TIA:tia_inst|vid_clk_dvdr[3]'
+Slack : -9.465
+TNS   : -737.569
+
+Type  : Slow Model Setup 'A2601Master:inst|A2601:ms_A2601|TIA:tia_inst|phi1'
+Slack : -8.681
+TNS   : -1632.835
+
+Type  : Slow Model Setup 'CLOCK_50'
+Slack : -4.840
+TNS   : -90.740
+
+Type  : Slow Model Hold 'A2601Master:inst|A2601:ms_A2601|TIA:tia_inst|vid_clk_dvdr[3]'
+Slack : -2.834
+TNS   : -18.242
+
+Type  : Slow Model Hold 'A2601Master:inst|A2601:ms_A2601|TIA:tia_inst|phi0'
+Slack : -1.326
+TNS   : -18.393
+
+Type  : Slow Model Hold 'inst4|altpll_component|pll|clk[0]'
+Slack : 0.092
+TNS   : 0.000
+
+Type  : Slow Model Hold 'A2601Master:inst|A2601:ms_A2601|TIA:tia_inst|phi1'
+Slack : 0.499
+TNS   : 0.000
+
+Type  : Slow Model Hold 'CLOCK_50'
+Slack : 0.499
+TNS   : 0.000
+
+Type  : Slow Model Minimum Pulse Width 'A2601Master:inst|A2601:ms_A2601|TIA:tia_inst|phi1'
+Slack : -2.567
+TNS   : -428.920
+
+Type  : Slow Model Minimum Pulse Width 'A2601Master:inst|A2601:ms_A2601|TIA:tia_inst|phi0'
+Slack : -2.567
+TNS   : -261.506
+
+Type  : Slow Model Minimum Pulse Width 'CLOCK_50'
+Slack : -1.941
+TNS   : -34.589
+
+Type  : Slow Model Minimum Pulse Width 'A2601Master:inst|A2601:ms_A2601|TIA:tia_inst|vid_clk_dvdr[3]'
+Slack : -0.742
+TNS   : -225.568
+
+Type  : Slow Model Minimum Pulse Width 'inst4|altpll_component|pll|clk[0]'
+Slack : 7.488
+TNS   : 0.000
+
+Type  : Slow Model Minimum Pulse Width 'CLOCK_14'
+Slack : 34.921
+TNS   : 0.000
+
+Type  : Fast Model Setup 'inst4|altpll_component|pll|clk[0]'
+Slack : -4.385
+TNS   : -136.790
+
+Type  : Fast Model Setup 'A2601Master:inst|A2601:ms_A2601|TIA:tia_inst|phi0'
+Slack : -4.360
+TNS   : -394.637
+
+Type  : Fast Model Setup 'A2601Master:inst|A2601:ms_A2601|TIA:tia_inst|phi1'
+Slack : -2.428
+TNS   : -421.747
+
+Type  : Fast Model Setup 'A2601Master:inst|A2601:ms_A2601|TIA:tia_inst|vid_clk_dvdr[3]'
+Slack : -2.123
+TNS   : -146.007
+
+Type  : Fast Model Setup 'CLOCK_50'
+Slack : -0.895
+TNS   : -16.025
+
+Type  : Fast Model Hold 'A2601Master:inst|A2601:ms_A2601|TIA:tia_inst|vid_clk_dvdr[3]'
+Slack : -1.287
+TNS   : -13.858
+
+Type  : Fast Model Hold 'A2601Master:inst|A2601:ms_A2601|TIA:tia_inst|phi0'
+Slack : -0.890
+TNS   : -33.561
+
+Type  : Fast Model Hold 'A2601Master:inst|A2601:ms_A2601|TIA:tia_inst|phi1'
+Slack : -0.403
+TNS   : -0.457
+
+Type  : Fast Model Hold 'inst4|altpll_component|pll|clk[0]'
+Slack : 0.195
+TNS   : 0.000
+
+Type  : Fast Model Hold 'CLOCK_50'
+Slack : 0.215
+TNS   : 0.000
+
+Type  : Fast Model Minimum Pulse Width 'A2601Master:inst|A2601:ms_A2601|TIA:tia_inst|phi1'
+Slack : -1.880
+TNS   : -296.240
+
+Type  : Fast Model Minimum Pulse Width 'A2601Master:inst|A2601:ms_A2601|TIA:tia_inst|phi0'
+Slack : -1.880
+TNS   : -178.320
+
+Type  : Fast Model Minimum Pulse Width 'CLOCK_50'
+Slack : -1.380
+TNS   : -23.380
+
+Type  : Fast Model Minimum Pulse Width 'A2601Master:inst|A2601:ms_A2601|TIA:tia_inst|vid_clk_dvdr[3]'
+Slack : -0.500
+TNS   : -152.000
+
+Type  : Fast Model Minimum Pulse Width 'inst4|altpll_component|pll|clk[0]'
+Slack : 7.730
+TNS   : 0.000
+
+Type  : Fast Model Minimum Pulse Width 'CLOCK_14'
+Slack : 34.921
+TNS   : 0.000
+
+------------------------------------------------------------

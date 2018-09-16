@@ -1,0 +1,22 @@
+
+State Machine - |retro2600|A2601Master:inst|A2601:ms_A2601|A6507:cpu_A6507|cpu65xx:cpu|theCpuCycle
+Name theCpuCycle.cycleEnd theCpuCycle.cycleJump theCpuCycle.cycleStack4 theCpuCycle.cycleStack3 theCpuCycle.cycleStack2 theCpuCycle.cycleStack1 theCpuCycle.cycleWrite theCpuCycle.cyclePreWrite theCpuCycle.cycleRmw theCpuCycle.cycleRead2 theCpuCycle.cycleRead theCpuCycle.cyclePreRead theCpuCycle.cycleBranchPage theCpuCycle.cycleBranchTaken theCpuCycle.cycleIndirect theCpuCycle.cyclePreIndirect theCpuCycle.cycle3 theCpuCycle.opcodeFetch theCpuCycle.cycle2 
+theCpuCycle.cycle2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+theCpuCycle.opcodeFetch 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 
+theCpuCycle.cycle3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 1 
+theCpuCycle.cyclePreIndirect 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 1 
+theCpuCycle.cycleIndirect 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 1 
+theCpuCycle.cycleBranchTaken 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 1 
+theCpuCycle.cycleBranchPage 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 1 
+theCpuCycle.cyclePreRead 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 1 
+theCpuCycle.cycleRead 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 1 
+theCpuCycle.cycleRead2 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 1 
+theCpuCycle.cycleRmw 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 1 
+theCpuCycle.cyclePreWrite 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 1 
+theCpuCycle.cycleWrite 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 1 
+theCpuCycle.cycleStack1 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 1 
+theCpuCycle.cycleStack2 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
+theCpuCycle.cycleStack3 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
+theCpuCycle.cycleStack4 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
+theCpuCycle.cycleJump 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
+theCpuCycle.cycleEnd 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 

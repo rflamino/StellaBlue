@@ -1,0 +1,6 @@
+<?xml version="1.0" ?>
+<LOG_ROOT>
+	<PROJECT NAME="retro2600">
+		<CBX_INST_ENTRY INSTANCE_NAME="|retro2600|A2601Master:inst|A2601:ms_A2601|A6532:riot_A6532|ram128x8:ram|altsyncram:ram_rtl_0" CBX_FILE_NAME="altsyncram_vae1.tdf"/>
+	</PROJECT>
+</LOG_ROOT>

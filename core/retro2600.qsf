@@ -1,0 +1,130 @@
+# -------------------------------------------------------------------------- #
+#
+# Copyright (C) 1991-2013 Altera Corporation
+# Your use of Altera Corporation's design tools, logic functions 
+# and other software and tools, and its AMPP partner logic 
+# functions, and any output files from any of the foregoing 
+# (including device programming or simulation files), and any 
+# associated documentation or information are expressly subject 
+# to the terms and conditions of the Altera Program License 
+# Subscription Agreement, Altera MegaCore Function License 
+# Agreement, or other applicable license agreement, including, 
+# without limitation, that your use is for the sole purpose of 
+# programming logic devices manufactured by Altera and sold by 
+# Altera or its authorized distributors.  Please refer to the 
+# applicable agreement for further details.
+#
+# -------------------------------------------------------------------------- #
+#
+# Quartus II 64-Bit
+# Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Web Edition
+# Date created = 12:04:36  July 26, 2016
+#
+# -------------------------------------------------------------------------- #
+#
+# Notes:
+#
+# 1) The default values for assignments are stored in the file:
+#		retro2600_assignment_defaults.qdf
+#    If this file doesn't exist, see file:
+#		assignment_defaults.qdf
+#
+# 2) Altera recommends that you do not modify this file. This
+#    file is updated automatically by the Quartus II software
+#    and any changes you make may be lost or overwritten.
+#
+# -------------------------------------------------------------------------- #
+
+
+set_global_assignment -name FAMILY "Cyclone II"
+set_global_assignment -name DEVICE EP2C5T144C8
+set_global_assignment -name TOP_LEVEL_ENTITY retro2600
+set_global_assignment -name ORIGINAL_QUARTUS_VERSION "13.0 SP1"
+set_global_assignment -name PROJECT_CREATION_TIME_DATE "12:04:36  JULY 26, 2016"
+set_global_assignment -name LAST_QUARTUS_VERSION "13.0 SP1"
+set_global_assignment -name PROJECT_OUTPUT_DIRECTORY output_files
+set_global_assignment -name MIN_CORE_JUNCTION_TEMP 0
+set_global_assignment -name MAX_CORE_JUNCTION_TEMP 85
+set_global_assignment -name USE_CONFIGURATION_DEVICE ON
+set_global_assignment -name CYCLONEII_RESERVE_NCEO_AFTER_CONFIGURATION "USE AS REGULAR IO"
+set_global_assignment -name RESERVE_ASDO_AFTER_CONFIGURATION "USE AS REGULAR IO"
+set_global_assignment -name PARTITION_NETLIST_TYPE SOURCE -section_id Top
+set_global_assignment -name PARTITION_FITTER_PRESERVATION_LEVEL PLACEMENT_AND_ROUTING -section_id Top
+set_global_assignment -name PARTITION_COLOR 16764057 -section_id Top
+set_global_assignment -name STRATIX_DEVICE_IO_STANDARD "3.3-V LVTTL"
+set_location_assignment PIN_73 -to Reset
+set_location_assignment PIN_17 -to CLOCK_50
+set_location_assignment PIN_60 -to cv[0]
+set_location_assignment PIN_58 -to cv[1]
+set_location_assignment PIN_55 -to cv[2]
+set_location_assignment PIN_52 -to cv[3]
+set_location_assignment PIN_48 -to cv[4]
+set_location_assignment PIN_45 -to cv[5]
+set_location_assignment PIN_43 -to cv[6]
+set_location_assignment PIN_41 -to cv[7]
+set_location_assignment PIN_32 -to vsyn
+set_location_assignment PIN_30 -to hsyn
+set_location_assignment PIN_132 -to a_out[0]
+set_location_assignment PIN_126 -to a_out[1]
+set_location_assignment PIN_122 -to a_out[2]
+set_location_assignment PIN_120 -to a_out[3]
+set_location_assignment PIN_118 -to a_out[4]
+set_location_assignment PIN_114 -to a_out[5]
+set_location_assignment PIN_112 -to a_out[6]
+set_location_assignment PIN_113 -to a_out[7]
+set_location_assignment PIN_115 -to a_out[8]
+set_location_assignment PIN_119 -to a_out[9]
+set_location_assignment PIN_125 -to a_out[10]
+set_location_assignment PIN_121 -to a_out[11]
+set_location_assignment PIN_129 -to a_out[12]
+set_location_assignment PIN_134 -to d_in[0]
+set_location_assignment PIN_135 -to d_in[1]
+set_location_assignment PIN_136 -to d_in[2]
+set_location_assignment PIN_137 -to d_in[3]
+set_location_assignment PIN_139 -to d_in[4]
+set_location_assignment PIN_141 -to d_in[5]
+set_location_assignment PIN_142 -to d_in[6]
+set_location_assignment PIN_143 -to d_in[7]
+set_location_assignment PIN_40 -to pa_in[4]
+set_location_assignment PIN_42 -to pa_in[5]
+set_location_assignment PIN_44 -to pa_in[6]
+set_location_assignment PIN_47 -to pa_in[7]
+set_location_assignment PIN_51 -to inpt4
+set_location_assignment PIN_65 -to inpt5
+set_location_assignment PIN_63 -to pa_in[3]
+set_location_assignment PIN_59 -to pa_in[2]
+set_location_assignment PIN_57 -to pa_in[1]
+set_location_assignment PIN_53 -to pa_in[0]
+set_location_assignment PIN_69 -to pb_in[0]
+set_location_assignment PIN_71 -to pb_in[1]
+set_location_assignment PIN_67 -to pb_in[3]
+set_location_assignment PIN_72 -to pb_in[6]
+set_location_assignment PIN_70 -to pb_in[7]
+set_location_assignment PIN_75 -to au[0]
+set_location_assignment PIN_76 -to au[1]
+set_location_assignment PIN_79 -to au[2]
+set_location_assignment PIN_80 -to au[3]
+set_location_assignment PIN_81 -to au[4]
+set_global_assignment -name VHDL_FILE A6500/src/cpu65xx_fast.vhd
+set_global_assignment -name VHDL_FILE A6500/src/cpu65xx_e.vhd
+set_global_assignment -name VHDL_FILE A2601Master.vhd
+set_global_assignment -name VERILOG_FILE divide_by_counter.v
+set_global_assignment -name VERILOG_FILE debounce.v
+set_global_assignment -name VHDL_FILE A2601/src/CartTable.vhd
+set_global_assignment -name VHDL_FILE A2601/src/A2601Core.vhd
+set_global_assignment -name VHDL_FILE TIA/src/TIA.vhd
+set_global_assignment -name VHDL_FILE TIA/src/NTSCLookups.vhd
+set_global_assignment -name VHDL_FILE TIA/src/Common.vhd
+set_global_assignment -name VHDL_FILE A6532/src/A6532.vhd
+set_global_assignment -name VHDL_FILE A6500/src/Types.vhd
+set_global_assignment -name VHDL_FILE A6500/src/FSM.vhd
+set_global_assignment -name VHDL_FILE A6500/src/Datapath.vhd
+set_global_assignment -name VHDL_FILE A6500/src/ALU.vhd
+set_global_assignment -name VHDL_FILE A6500/src/A6507.vhd
+set_global_assignment -name VHDL_FILE A6500/src/A6502.vhd
+set_global_assignment -name VHDL_FILE A6500/src/A6500.vhd
+set_global_assignment -name BDF_FILE A2601/src/retro2600.bdf
+set_global_assignment -name QIP_FILE A2601/src/altpll0.qip
+set_location_assignment PIN_91 -to CLOCK_14
+set_global_assignment -name CDF_FILE output_files/retro2600.cdf
+set_instance_assignment -name PARTITION_HIERARCHY root_partition -to | -section_id Top
