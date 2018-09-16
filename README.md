@@ -12,18 +12,18 @@ Upload the "retro2600.pof" file via "Active Serial Programming". The device is E
 
 
 
-
-
-[rflamino] (Reinaldo de Sales Flamino)
-Website:	hackaday.io/rflamino
+rflamino AKA (Reinaldo de Sales Flamino)
+Website:	[hackaday.io/rflamino]
 email:		reinaldosflamino@gmail.com
 
-[Danjovic]  (Daniel Jose Viana)
-Websites:	danjovic.blogspot.com ; hackaday.io/danjovic & github.com/Danjovic
+[Danjovic]  AKA (Daniel Jose Viana)
+Websites:	[danjovic.blogspot.com] & [hackaday.io/danjovic]
 email:		danjovic@hotmail.com
 
 
 [Danjovic]: <https://hackaday.io/danjovic/>
-[rflamino]: <https://hackaday.io/rflamino/>
-[StellaBlue - Retro2600]: <https://github.com/rflamino/StellaBlue/>
+[hackaday.io/rflamino]: <https://hackaday.io/rflamino/>
+[danjovic.blogspot.com]: <https://danjovic.blogspot.com/>
+[hackaday.io/danjovic]: <https://hackaday.io/danjovic/>
+[Danjovic]: <https://github.com/Danjovic/>
 [Retromaster]: <https://retromaster.wordpress.com/a2601/>
