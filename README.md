@@ -1,6 +1,6 @@
 # StellaBlue
 
-StellaBlue - Retro2600: An FPGA-based clone of the Atari 2600 based on [Retromaster]'s cores.
+[StellaBlue - Retro2600]: An FPGA-based clone of the Atari 2600 based on [Retromaster]'s cores.
 
 -------------------------------------------------------------------------------
 
@@ -15,10 +15,11 @@ Website:	hackaday.io/rflamino
 email:		reinaldosflamino@gmail.com
 
 [Danjovic]  (Daniel Jose Viana)
-Websites:	danjovic.blogspot.com & hackaday.io/danjovic
+Websites:	danjovic.blogspot.com ; hackaday.io/danjovic & github.com/Danjovic
 email:		danjovic@hotmail.com
 
 
 [Danjovic]: <https://hackaday.io/danjovic/>
-[rflamino] : <https://hackaday.io/rflamino/>
+[rflamino]: <https://hackaday.io/rflamino/>
+[StellaBlue - Retro2600]: <https://github.com/rflamino/StellaBlue/>
 [Retromaster]: <https://retromaster.wordpress.com/a2601/>

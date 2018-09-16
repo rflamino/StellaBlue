@@ -12,7 +12,7 @@ Website:	hackaday.io/rflamino
 email:		reinaldosflamino@gmail.com
 
 [Danjovic]  (Daniel Jose Viana)
-Websites:	danjovic.blogspot.com & hackaday.io/danjovic
+Websites:	danjovic.blogspot.com ; hackaday.io/danjovic & github.com/Danjovic
 email:		danjovic@hotmail.com
 
 
