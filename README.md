@@ -10,7 +10,7 @@ The quartus project contains the glue logic to join the Retromaster's cores to t
 
 Using a fpga blaster; upload the "retro2600.pof" file via "Active Serial Programming". The device is EPCS4. Check the programming options "Program/Configure; Verifiy and Blank-Check".
 
-
+The file "CartridgeGuide.stl" contains a Cartridge Guide socket. Print it! - with a 3D printer :)
 
 rflamino AKA (Reinaldo de Sales Flamino)
 Website:	[hackaday.io/rflamino]
