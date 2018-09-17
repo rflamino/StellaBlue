@@ -1,6 +1,6 @@
 # StellaBlue
 
-[StellaBlue - Retro2600]: An FPGA-based clone of the Atari 2600 based on [Retromaster]'s cores.
+StellaBlue AKA Retro2600: An FPGA-based clone of the Atari 2600 based on [Retromaster]'s cores.
 
 -------------------------------------------------------------------------------
 
