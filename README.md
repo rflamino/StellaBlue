@@ -12,6 +12,7 @@ Using a fpga blaster; upload the "retro2600.pof" file via "Active Serial Program
 
 The file "CartridgeGuide.stl" contains a Cartridge Guide socket. Print it! - with a 3D printer :)
 
+
 rflamino AKA (Reinaldo de Sales Flamino)
 Website:	[hackaday.io/rflamino]
 email:		reinaldosflamino@gmail.com
@@ -27,3 +28,13 @@ email:		danjovic@hotmail.com
 [hackaday.io/danjovic]: <https://hackaday.io/danjovic/>
 [Danjovic]: <https://github.com/Danjovic/>
 [Retromaster]: <https://retromaster.wordpress.com/a2601/>
+
+
+First PCB!
+
+![alt text](https://github.com/rflamino/StellaBlue/blob/master/pictures/20161107_230555.jpg
+)
+
+Working!
+
+![alt text](https://github.com/rflamino/StellaBlue/blob/master/pictures/20161107_231717.jpg)
