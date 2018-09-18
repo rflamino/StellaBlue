@@ -32,7 +32,7 @@ email:		danjovic@hotmail.com
 
 First PCB!
 
-![alt text](https://github.com/rflamino/StellaBlue/blob/master/pictures/20161107_230555.jpg
+![alt text](https://github.com/rflamino/StellaBlue/blob/master/pictures/StellaBlue.jpg
 )
 
 Working!
