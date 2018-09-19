@@ -1,8 +1,8 @@
-StellaBlue - Retro2600: An FPGA-based clone of the Atari 2600 based on [Retromaster]'s cores.
+StellaBlue - Retro2600: An FPGA clone of the Atari 2600 based on [Retromaster]'s cores.
 
 -------------------------------------------------------------------------------
 
-This project aims to use the hardware with the original atari cartridge configuration. Additionaly, the board also supports original Paddle Controller (not fully tested) and the standard one.
+This project aims to use the hardware with the original atari cartridge configuration. Additionaly, the board also supports the original Paddle Controller (not fully tested) and the standard one.
 
 The quartus project contains the glue logic to join the Retromaster's cores to the hardware (EP2C5T144 board - AKA "cheap FPGA blue board").
 
